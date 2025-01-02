@@ -35,3 +35,8 @@ frontend/node_modules/
 # Backup files
 *.backup
 package.json.backup
+
+# albums / songs
+albums
+songs
+album
