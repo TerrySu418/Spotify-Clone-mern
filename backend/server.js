@@ -32,6 +32,7 @@ app.use(
   })
 );
 
+
 app.use(express.json());
 app.use(clerkMiddleware()); //this will add auth to req obj => req.auth
 app.use(
@@ -78,7 +79,7 @@ if (process.env.NODE_ENV === "production") {
 
 //error handler
 app.use((err, req, res, next) => {
-  console.error('Error:', err); // Add this line to see the full error
+  console.error("Error:", err); // Add this line to see the full error
   res.status(500).json({
     message:
       process.env.NODE_ENV === "production"

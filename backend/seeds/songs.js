@@ -6,130 +6,130 @@ config();
 
 const songs = [
   {
-    title: "Stay With Me",
-    artist: "Sarah Mitchell",
-    imageUrl: "/cover-images/1.jpg",
-    audioUrl: "/songs/1.mp3",
-    duration: 46, // 0:46
+    title: "抜け空",
+    artist: "Ado",
+    imageUrl: "/cover-images/ado1.jpeg",
+    audioUrl: "/songs/Ado抜け空.mp3",
+    duration: 280, // 0:39
   },
   {
-    title: "Midnight Drive",
-    artist: "The Wanderers",
-    imageUrl: "/cover-images/2.jpg",
-    audioUrl: "/songs/2.mp3",
-    duration: 41, // 0:41
+    title: "桜日和とタイムマシン",
+    artist: "Ado",
+    imageUrl: "/cover-images/ado2.jpeg",
+    audioUrl: "/songs/Ado桜日和とタイムマシン.mp3",
+    duration: 280, // 0:36
   },
   {
-    title: "Lost in Tokyo",
-    artist: "Electric Dreams",
-    imageUrl: "/cover-images/3.jpg",
-    audioUrl: "/songs/3.mp3",
-    duration: 24, // 0:24
+    title: "踊",
+    artist: "Ado",
+    imageUrl: "/cover-images/Ado踊.jpeg",
+    audioUrl: "/songs/ado3.mp3",
+    duration: 280,
   },
   {
-    title: "Summer Daze",
-    artist: "Coastal Kids",
-    imageUrl: "/cover-images/4.jpg",
-    audioUrl: "/songs/4.mp3",
-    duration: 24, // 0:24
+    title: "うっせぇわ",
+    artist: "Ado",
+    imageUrl: "/cover-images/ado4.jpeg",
+    audioUrl: "/songs/Adoうっせぇわ.mp3",
+    duration: 280, // 0:39
   },
   {
-    title: "Neon Lights",
-    artist: "Night Runners",
-    imageUrl: "/cover-images/5.jpg",
-    audioUrl: "/songs/5.mp3",
-    duration: 36, // 0:36
+    title: "A゙ラギラ",
+    artist: "Ado",
+    imageUrl: "/cover-images/ado5.jpeg",
+    audioUrl: "/songs/Adoギラギラ.mp3",
+    duration: 240, // 0:24
   },
   {
-    title: "Mountain High",
-    artist: "The Wild Ones",
-    imageUrl: "/cover-images/6.jpg",
-    audioUrl: "/songs/6.mp3",
-    duration: 40, // 0:40
+    title: "心海",
+    artist: "Eve",
+    imageUrl: "/cover-images/eve1.jpeg",
+    audioUrl: "/songs/Eve心海.mp3",
+    duration: 286, // 0:28
   },
   {
-    title: "City Rain",
-    artist: "Urban Echo",
-    imageUrl: "/cover-images/7.jpg",
-    audioUrl: "/songs/7.mp3",
-    duration: 39, // 0:39
+    title: "平行線",
+    artist: "Eve",
+    imageUrl: "/cover-images/eve2.jpeg",
+    audioUrl: "/songs/Eve平行線.mp3",
+    duration: 300, // 0:39
   },
   {
-    title: "Desert Wind",
-    artist: "Sahara Sons",
-    imageUrl: "/cover-images/8.jpg",
-    audioUrl: "/songs/8.mp3",
-    duration: 28, // 0:28
+    title: "蒼のワルツ",
+    artist: "Eve",
+    imageUrl: "/cover-images/eve3.jpeg",
+    audioUrl: "/songs/Eve蒼のワルツ.mp3",
+    duration: 300, // 0:30
   },
   {
-    title: "Ocean Waves",
-    artist: "Coastal Drift",
-    imageUrl: "/cover-images/9.jpg",
-    audioUrl: "/songs/9.mp3",
-    duration: 28, // 0:28
+    title: "YOKU",
+    artist: "Eve",
+    imageUrl: "/cover-images/eve4.jpeg",
+    audioUrl: "/songs/EveYOKU.mp3",
+    duration: 300, // 0:46
   },
   {
-    title: "Starlight",
-    artist: "Luna Bay",
-    imageUrl: "/cover-images/10.jpg",
-    audioUrl: "/songs/10.mp3",
-    duration: 30, // 0:30
+    title: "海のまにまに",
+    artist: "YOASOBI",
+    imageUrl: "/cover-images/yoasobi1.jpeg",
+    audioUrl: "/songs/YOASOBI海のまにまに.mp3",
+    duration: 300, // 0:41
   },
   {
-    title: "Winter Dreams",
-    artist: "Arctic Pulse",
-    imageUrl: "/cover-images/11.jpg",
-    audioUrl: "/songs/11.mp3",
-    duration: 29, // 0:29
+    title: "アイドル",
+    artist: "YOASOBI",
+    imageUrl: "/cover-images/yoasobi2.jpeg",
+    audioUrl: "/songs/YOASOBIアイドル.mp3",
+    duration: 270, // 0:27
   },
   {
-    title: "Purple Sunset",
-    artist: "Dream Valley",
-    imageUrl: "/cover-images/12.jpg",
-    audioUrl: "/songs/12.mp3",
-    duration: 17, // 0:17
+    title: "たふん",
+    artist: "YOASOBI",
+    imageUrl: "/cover-images/yoasobi3.jpeg",
+    audioUrl: "/songs/YOASOBIたふん.mp3",
+    duration: 240, // 0:24
   },
   {
-    title: "Neon Dreams",
-    artist: "Cyber Pulse",
-    imageUrl: "/cover-images/13.jpg",
-    audioUrl: "/songs/13.mp3",
-    duration: 39, // 0:39
+    title: "モノトーン",
+    artist: "YOASOBI",
+    imageUrl: "/cover-images/yoasobi4.jpeg",
+    audioUrl: "/songs/YOASOBIモノトーン.mp3",
+    duration: 300, // 0:39
   },
   {
-    title: "Moonlight Dance",
-    artist: "Silver Shadows",
-    imageUrl: "/cover-images/14.jpg",
-    audioUrl: "/songs/14.mp3",
-    duration: 27, // 0:27
+    title: "Alive",
+    artist: "wave",
+    imageUrl: "/cover-images/wave1.jpeg",
+    audioUrl: "/songs/wave-alive.mp3",
+    duration: 270, // 0:17
   },
   {
-    title: "Urban Jungle",
-    artist: "City Lights",
-    imageUrl: "/cover-images/15.jpg",
-    audioUrl: "/songs/15.mp3",
-    duration: 36, // 0:36
+    title: "Anna",
+    artist: "wave",
+    imageUrl: "/cover-images/wave2.jpeg",
+    audioUrl: "/songs/wave-Anna.mp3",
+    duration: 270, // 0:17
   },
   {
-    title: "Crystal Rain",
-    artist: "Echo Valley",
-    imageUrl: "/cover-images/16.jpg",
-    audioUrl: "/songs/16.mp3",
-    duration: 39, // 0:39
+    title: "Lullaby",
+    artist: "wave",
+    imageUrl: "/cover-images/wave3.jpeg",
+    audioUrl: "/songs/wave-Lullaby.mp3",
+    duration: 270, // 0:17
   },
   {
-    title: "Neon Tokyo",
-    artist: "Future Pulse",
-    imageUrl: "/cover-images/17.jpg",
-    audioUrl: "/songs/17.mp3",
-    duration: 39, // 0:39
+    title: "Stay Still",
+    artist: "wave",
+    imageUrl: "/cover-images/wave4.jpeg",
+    audioUrl: "/songs/wave-Stay-Still.mp3",
+    duration: 270, // 0:17
   },
   {
-    title: "Midnight Blues",
-    artist: "Jazz Cats",
-    imageUrl: "/cover-images/18.jpg",
-    audioUrl: "/songs/18.mp3",
-    duration: 29, // 0:29
+    title: "Still Sleeping",
+    artist: "wave",
+    imageUrl: "/cover-images/wave5.jpeg",
+    audioUrl: "/songs/wave-still-sleeping.mp3",
+    duration: 270, // 0:17
   },
 ];
 
