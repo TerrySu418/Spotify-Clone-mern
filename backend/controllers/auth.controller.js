@@ -11,9 +11,13 @@ export const authCallback = async (req, res, next) => {
       await User.create({
         clerkId: id,
         fullName: `${firstName || ""} ${lastName || ""}`.trim(),
-        imageUrl,
+        imageUrl: imageUrl || "",
       });
+      console.log("Created new user:", newUser); // Add debug log
+    } else {
+      console.log("Found existing user:", user); // Add debug log
     }
+
     res.status(200).json({ success: true });
   } catch (error) {
     console.log("Error in auth callback", error);

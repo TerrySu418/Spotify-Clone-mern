@@ -5,7 +5,7 @@ import cloudinary from "../lib/cloudinary.js";
 //helper function for cloudinary uploads
 const uploadToCloudinary = async (file) => {
   try {
-    const result = await cloudinary.uploader(file.tempFilePath, {
+    const result = await cloudinary.uploader.upload(file.tempFilePath, {
       resource_type: "auto",
     });
     return result.secure_url;
@@ -107,5 +107,10 @@ export const deleteAlbum = async (req, res, next) => {
 };
 
 export const checkAdmin = async (req, res, next) => {
-  res.status(200).json({ admin: true });
+  try {
+    res.status(200).json({ admin: true });
+  } catch (error) {
+    console.log("Error in checkAdmin", error);
+    next(error);
+  }
 };
